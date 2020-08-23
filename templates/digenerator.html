@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>DiGenerator | DigitalML</title>
+	    <!-- mobile compatibility -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- styles -->
+	    <!-- bootstrap related - latest compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	    <!-- website-specific css -->
+	    <link href="{{ url_for('static', filename='css/stylesheet.css') }}" rel="stylesheet" type="text/css" >
+	    <!-- bootstrap related - jQuery library -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <!-- bootstrap related - Popper JS -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <!-- bootstrap related - Latest compiled JavaScript -->
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	    <!-- Font Awesome -->
+	    <script src="https://kit.fontawesome.com/129cd72893.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body class="light-purple-text-selection">
+	    <header class="site-header">
+	        <div class="wrapper">
+	            <nav class="navbar bg-black sticky-top navbar-expand-lg light-purple-border-buttom">
+					<a class="text-white navbar-brand pl-3" href="#">Digital<span class="font-weight-700">ML</span></a>
+	                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	                    <span class="navbar-toggler-icon"></span>
+	                </button>
+					<div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
+	                    <div class="navbar-nav">
+	                        <a class="nav-item nav-link active p-3" href="./index.html">Home</a>
+	                        <a class="nav-item nav-link p-3" href="./team.html">The Team</a>
+	                        <a class="nav-item nav-link p-3" href="./products.html">Our Products</a>
+	                        <a class="nav-item nav-link p-3" href="./contact.html">Contact Us</a>
+	                    </div>
+	                </div>
+	            </nav>
+	        </div>
+	    </header>
+
+	<div class="bg-black">
+		<div class="digenerator-main-container text-white py-5 w-75 mx-auto">
+			<div class="digenertaor-title pb-5 mx-auto text-center w-75">
+				<h2 class="pb-3"><b>The Digital Generator</b></h2>
+				<h3>Generate Your New Powerful Digital Tech Idea Using Our Complex Machine Learning Based Algorithm.</h3>
+			</div>
+
+			<div class="rounded digenerator-app-container mx-auto text-center mt-5 position-relative">
+				<div class="digenerator-in-app-img"></div>
+                <div id="digenerator-border-seperator-white" class="border-seperator-white"></div>
+
+				<div class="digenerator-generated-result-container w-75 mx-auto row">
+					<div class="col-12 col-sm-12 col-lg-6 pr-xl-5 row justify-content-center h-100 pb-3 pb-sm-5 pb-lg-0"> <!-- img-div -->
+                        <div id="digenerator-img-container" class="col-sm-12 w-100 h-100"> <!-- to align the image to center & for JS use -->
+                            <img id="digenerated-product-img" class="img-box-shadow-1 mx-auto d-block mw-100 mh-100" src=""> <!-- image assigned here using js -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6 pl-lg-5">
+                        <h2 id="digenerated-product-title" class="text-uppercase"></h2>
+                        <h5 id="digenerated-product-description" class="text-capitalize"></h5>
+                    </div>
+				</div>
+		    <button id="digenerator-button" class="d-inline digenerator-button light-purple-button-1 btn btn-primary">Digenerate</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	    <footer class="site-footer page-footer font-small bg-dark text-white pt-5">
+	        <div class="row align-items-start justify-content-md-center justify-content-start">
+	            <div class="col-12 col-sm-12 col-md-4 footer-block-wrapper1 pb-4 pb-md-0 row justify-content-center">
+	                <div class="footer-block-wrapper2">
+	                    <h5>Digital<span class="text-light-purple">ML<span>
+	                    </h5>
+	                    <hr class="footer-hr">
+	                    <ul>
+	                        <li><a href="./index.html">Home</a></li>
+	                        <li><a href="./team.html">The Team</a></li>
+	                        <li><a href="./products.html">Our Products</a></li>
+	                        <li><a href="./contact.html">Contact Us</a></li>
+							<li><a href="#">DiGenerator - Try For Free!</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+
+	            <div class="col-12 col-sm-12 col-md-4 footer-block-wrapper1">
+	                <div class="footer-block-wrapper2">
+	                    <h5>Useful Links
+	                    </h5>
+	                    <hr class="footer-hr">
+
+	                    <ul>
+	                        <li><a href="https://kubernetes.io" target="_blank">Kubernetes</a></li>
+	                        <li><a href="https://azure.microsoft.com/en-us/" target="_blank">Microsoft Azure</a></li>
+	                        <li><a href="https://en.wikipedia.org/wiki/CI/CD" target="_blank">CI/CD</a></li>
+	                        <li><a href="https://www.youtube.com/watch?v=Z9QbYZh1YXY" target="_blank">Agile Development</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Copyright -->
+	        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+	            <a class="text-light-purple" href="https://github.com/putskan" target="_blank"> Ben Lahav</a>
+	        </div>
+        </footer>
+        <!-- webpage specific js -->
+	    <script src="./static/js/digenerator.js"></script>
+    </body>
+</html>

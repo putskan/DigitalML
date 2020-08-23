@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Team | DigitalML</title>
+	<!-- mobile compatibility -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- styles -->
+	<!-- bootstrap related - latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- website-specific css -->
+    <link href="{{ url_for('static', filename='css/stylesheet.css') }}" rel="stylesheet" type="text/css" >
+	<!-- bootstrap related - jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- bootstrap related - Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- bootstrap related - Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/129cd72893.js" crossorigin="anonymous"></script>
+</head>
+
+	<body>
+		<header class="site-header">
+			<div class="wrapper">
+				<nav class="navbar bg-purple sticky-top navbar-expand-lg">
+					<a class="text-white navbar-brand pl-3" href="#">Digital<span class="font-weight-700">ML</span></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-item nav-link active p-3" href="./index.html">Home</a>
+							<a class="nav-item nav-link p-3" href="#"><b>The Team</b></a>
+							<a class="nav-item nav-link p-3" href="./products.html">Our Products</a>
+							<a class="nav-item nav-link p-3" href="./contact.html">Contact Us</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<div class="site-content">
+			<h1 class="team-title text-purple my-5">The DigitalML Family
+			</h1>
+			<div class="row employee-wrapper py-5 mb-5 justify-content-center">
+				<!-- employee -->
+				<div class="employee-basic-info col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>David Splunk
+					</h2>
+					<h5 class="pt-3">CEO and founder of DigitalML</h5>
+				</div>
+				<div class="employee-pic col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<img src="./static/img/employees/bean.jpg" class="img-prettify">
+				</div>
+				<div class="employee-details col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>About Me
+					</h2>
+					<p>
+						Born in Navada state of America, graduated MIT's computer science degree and PHD.<br>
+						Started DigitalML 10 years ago, in his own garage.
+					</p>
+				</div>
+				<div class="employee-details col-sm-12 pb-5 p-md-5"><hr></div>
+				<!-- employee -->
+				<div class="employee-basic-info col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>Jack Tensorflow
+					</h2>
+					<h5 class="pt-3">CTO & Head of Machine Learning Division</h5>
+				</div>
+				<div class="employee-pic col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<img src="./static/img/employees/dwayne-johnson.jpg" class="img-prettify">
+				</div>
+				<div class="employee-details col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>About Me
+					</h2>
+					<p>
+						Born in Hadoop, Australia. Married to Cloudia.<br>
+						Specializes in cloud-based machine learning and data science.
+					</p>
+				</div>
+				<div class="employee-details col-sm-12 pb-5 p-md-5"><hr></div>
+				<!-- employee -->
+				<div class="employee-basic-info col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>Linda Talake
+					</h2>
+					<h5 class="pt-3">Leading Data Analyst & Senior POR</h5>
+				</div>
+				<div class="employee-pic col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<img src="./static/img/employees/gal-gadot.jpg" class="img-prettify">
+				</div>
+				<div class="employee-details col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>About Me
+					</h2>
+					<p>
+						Born in Lake Data, Pennsylvania.<br>
+						Data analysis and product integration expert.<br>
+						Loves Dogs.
+					</p>
+				</div>
+				<div class="employee-details col-sm-12 pb-5 p-md-5"><hr></div>
+				<!-- employee -->
+				<div class="employee-basic-info col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>Doc. Kerr
+					</h2>
+					<h5 class="pt-3">DigitalML Consultant & Board Member</h5>
+				</div>
+				<div class="employee-pic col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<img src="./static/img/employees/hermayonee.jpg" class="img-prettify">
+				</div>
+				<div class="employee-details col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>About Me
+					</h2>
+					<p>
+						Former algorithms expert & co-founder of Amazon.<br>Currently a consultant and investor.<br>
+						One of top 50 Forbes Billionaires.<br>
+						Owns a big house.
+					</p>
+				</div>
+				<div class="employee-details col-sm-12 pb-5 p-md-5"><hr></div>
+				<!-- employee -->
+				<div class="employee-basic-info col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>Cassandra Spark
+					</h2>
+					<h5 class="pt-3">Head of IT & Security Division</h5>
+				</div>
+				<div class="employee-pic col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<img src="./static/img/employees/rachel.jpg" class="img-prettify">
+				</div>
+				<div class="employee-details col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>About Me
+					</h2>
+					<p>
+						Former Oracle's Hexadata designer & engineer.
+						Specializes in docker-based infrastracure & kubernetes.<br>
+						Hates people saying HTML is a programming language.
+					</p>
+				</div>
+				<div class="employee-details col-sm-12 pb-5 p-md-5"><hr></div>
+				<!-- employee -->
+				<div class="employee-basic-info col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>Ma Pridius
+					</h2>
+					<h5 class="pt-3">Senior System Architect</h5>
+				</div>
+				<div class="employee-pic col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<img src="./static/img/employees/jacky-chan.jpg" class="img-prettify">
+				</div>
+				<div class="employee-details col-12 col-sm-12 col-md-4 mb-5 mb-sm-5 mb-md-0">
+					<h2>About Me
+					</h2>
+					<p>
+						AWS & Microsoft Azure Specialist.<br>
+						Top-Tier Ubuntu Open-Source Contributer.
+						Doesn't believe in 5G and Windows.
+					</p>
+				</div>
+
+			</div>
+		</div>
+		
+		<footer class="site-footer page-footer font-small bg-dark text-white pt-5">
+			<div class="row align-items-start justify-content-center">
+				<div class="col-12 col-sm-12 col-md-4 footer-block-wrapper1">
+					<div class="footer-block-wrapper2">
+						<h6>Digital<span class="text-light-purple">ML<span>
+						</h6>
+						<hr class="footer-hr">
+						<ul>
+							<li><a href="./index.html">Home</a></li>
+							<li><a href="#">The Team</a></li>
+							<li><a href="./products.html">Our Products</a></li>
+							<li><a href="./contact.html">Contact Us</a></li>
+							<li><a href="./digenerator.html">DiGenerator - Try For Free!</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-4 footer-block-wrapper1">
+					<div class="footer-block-wrapper2">
+						<h6>Useful Links
+						</h6>
+						<hr class="footer-hr">
+
+						<ul>
+							<li><a href="https://kubernetes.io" target="_blank">Kubernetes</a></li>
+							<li><a href="https://azure.microsoft.com/en-us/" target="_blank">Microsoft Azure</a></li>
+							<li><a href="https://en.wikipedia.org/wiki/CI/CD" target="_blank">CI/CD</a></li>
+							<li><a href="https://www.youtube.com/watch?v=Z9QbYZh1YXY" target="_blank">Agile Development</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+  			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">© 2020 Copyright:
+				<a class="text-light-purple" href="https://github.com/putskan" target="_blank"> Ben Lahav</a>
+			</div>
+		</footer>
+	</body>
+</html>
