@@ -11,6 +11,7 @@ SENDER_EMAIL = "mule9006@gmail.com"
 RECIEVER_EMAIL = "mule9003@gmail.com"
 EMAIL_PORT = 587
 WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
+# Yeah, I know... I should get myself a token. If you've seen this I will probably have to kill you.
 SENDER_PASSWORD_PATH = os.path.join(WORKING_DIR, "email_pass")
 DIGENERATOR_IMAGES_FOLDER = os.path.join(WORKING_DIR, 'static/img/digenerator-buzzphotos/')
 
